@@ -1,0 +1,177 @@
+@font-face {
+  font-family: Nautilus;
+  src: url(../font/nautilus/nautiluspompilius.woff);
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url(../font/Comfortaa/Comfortaa-Regular.ttf);
+}
+
+body {
+  background-color: #1E90FF;
+  font-family: Comfortaa;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 50px;
+  font-family: Nautilus;
+}
+
+.conteiner {
+  color: white;
+  margin: 5px;
+}
+
+.conteiner .addButton {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.conteiner .addNote {
+  margin: 10px;
+  background-color: #4169E1;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 180px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.conteiner .addNote-string {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.conteiner .addNote-string .addNote-button {
+  cursor: pointer;
+  background-color: #1E90FF;
+  font-family: Comfortaa;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.conteiner .addNote .color {
+  margin: 0 10px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.conteiner .addNote .LimeGreen {
+  background-color: #32CD32;
+}
+
+.conteiner .addNote .HotPink {
+  background-color: #FF69B4;
+}
+
+.conteiner .addNote .DeepSkyBlue {
+  background-color: #00BFFF;
+}
+
+.conteiner .addNote .title-input {
+  width: 130px;
+  border-radius: 10px;
+  border-style: none;
+  padding-left: 5px;
+  font-family: Comfortaa;
+}
+
+.conteiner .note {
+  margin: 10px;
+  background-color: #4169E1;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.conteiner .note-header {
+  width: 200px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid;
+}
+
+.conteiner .note-header .delete-note {
+  margin-right: 5px;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.conteiner .note-header > span {
+  margin-left: 10px;
+}
+
+.conteiner .note-footer {
+  width: 200px;
+  height: 30px;
+  border-top: 2px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.conteiner .note-footer-button {
+  margin: 5px;
+  cursor: pointer;
+  background-color: #1E90FF;
+  font-family: Comfortaa;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.conteiner .note-footer-input {
+  width: 135px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 5px;
+  font-family: Comfortaa;
+}
+/*# sourceMappingURL=style.css.map */
