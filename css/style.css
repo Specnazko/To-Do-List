@@ -52,6 +52,7 @@ h1 {
   padding: 10px;
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  display: none;
 }
 
 .conteiner .addNote-string {
@@ -70,6 +71,17 @@ h1 {
   color: white;
   border-radius: 10px;
   border: 1px solid white;
+  outline: none;
+}
+
+.conteiner .addNote-string .cancleNote-button {
+  cursor: pointer;
+  background-color: #1E90FF;
+  font-family: Comfortaa;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  outline: none;
 }
 
 .conteiner .addNote .color {
@@ -78,6 +90,10 @@ h1 {
   width: 15px;
   height: 15px;
   cursor: pointer;
+}
+
+.conteiner .addNote div[data-checked] {
+  border: 2px solid white;
 }
 
 .conteiner .addNote .LimeGreen {
@@ -98,6 +114,7 @@ h1 {
   border-style: none;
   padding-left: 5px;
   font-family: Comfortaa;
+  outline: none;
 }
 
 .conteiner .note {
@@ -119,6 +136,7 @@ h1 {
           justify-content: space-between;
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  display: none;
 }
 
 .conteiner .note-header {
@@ -147,6 +165,31 @@ h1 {
   margin-left: 10px;
 }
 
+.conteiner .note-main {
+  padding: 3px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: black;
+  position: relative;
+}
+
+.conteiner .note-main .done {
+  position: absolute;
+  right: 35px;
+}
+
+.conteiner .note-main .remove-note-item {
+  position: absolute;
+  right: 10px;
+}
+
 .conteiner .note-footer {
   width: 200px;
   height: 30px;
@@ -164,6 +207,7 @@ h1 {
   color: white;
   border-radius: 10px;
   border: 1px solid white;
+  outline: none;
 }
 
 .conteiner .note-footer-input {
@@ -173,5 +217,6 @@ h1 {
   border: none;
   padding-left: 5px;
   font-family: Comfortaa;
+  outline: none;
 }
 /*# sourceMappingURL=style.css.map */

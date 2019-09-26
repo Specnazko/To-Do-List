@@ -12,28 +12,37 @@
     <div class="conteiner">
         <h1>To Do List</h1>
         <img src="img/add.png" alt="" class="addButton">
-        <div class="addNote">
-            <div class="addNote-string">
-                <span>Color:</span>
-                <div class="LimeGreen color"></div>
+        <form class="addNote">
+            <div class="addNote-string color-panel">
+                <span>Color:</span>  
+                <div class="LimeGreen color" data-checked></div>
                 <div class="HotPink color"></div>
                 <div class="DeepSkyBlue color"></div>
             </div>
             <div class="addNote-string">
                 <span>Title:</span>
-                <input class="title-input" type="text" value="Title">
+                <input class="title-input" type="text" required>
             </div>
             <div class="addNote-string">
                 <button class="addNote-button">Add note</button>
-                <button class="addNote-button">Cancle</button>
+                <button class="cancleNote-button">Cancle</button>
             </div>
-        </div>
+        </form>
         <div>
             <div class="note">
                 <div class="note-header">
-                    <span>Title</span>
+                    <span class="note-title">Title</span>
                     <img src="img/close.png" alt="" class="delete-note">
                 </div>
+                <main class='note-main'>
+                    <ul class="notion-list">
+                        <li class="list-item">
+                            <p class="note-content"></p>
+                            <span class="done">o</span>
+                            <span class="remove-note-item">[x]</span>
+                        </li>
+                    </ul>
+                </main>
                 
                 <div class="note-footer">
                     <button class="note-footer-button">Add</button>
